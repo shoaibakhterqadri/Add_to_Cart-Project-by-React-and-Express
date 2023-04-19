@@ -1,0 +1,27 @@
+.signup__image--container{
+      background-image: url(https://cdni.iconscout.com/illustration/premium/thumb/sign-up-or-registration-to-e-payment-application-3159825-2631917.png);
+      height: 90vh;
+      background-size: cover;
+}
+
+.signup__form--container,
+.Login__form--container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      justify-content: center;
+}
+
+.login__image--container{
+      background-image: url(https://cdni.iconscout.com/illustration/premium/thumb/sign-up-or-registration-to-e-payment-application-3159825-2631917.png);
+      height: 90vh;
+      background-size: cover;
+}
+
+@media screen and (max-width: 756px) {
+      .login__image--container,
+      .signup__image--container{
+            display: none;
+      }
+}
